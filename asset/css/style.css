@@ -1,0 +1,157 @@
+:root {
+    font-size: 16px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;  
+}
+
+main {
+    min-height: 80vh;
+}
+
+
+/* Menu */
+#navbarSupportedContent{
+    justify-content: center;
+}
+
+.navbar-toggler{
+    background-color: #F6EEEE;
+    
+}
+
+#navbarSupportedContent :hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#F0E5DF;
+}
+
+#round{
+    background-color: #F0E5DF;
+}
+
+#linkcolor {
+    color: gray;
+}
+
+
+#profil {
+    border-radius: 5vh;
+    width: 80vw;
+}
+
+#products {
+    border-radius: 30px;
+}
+
+#rad {
+    border-radius: 60px;
+}
+
+.rad {
+    border-radius: 60px;
+}
+
+
+
+/* Presentation */
+h1 {
+    font-family: 'Allura', cursive;
+    font-size: 3.5rem;
+    font-weight: 300;
+    word-spacing: 8px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.bgColor {
+    background-color: #F0E5DF ;
+}
+
+.textPres {
+    margin: 10px;
+}
+
+.logo {
+    width: 20vh ;
+}
+
+#linkcolor:hover {
+    color:white;
+}
+
+textarea {
+    height: 150px;
+}
+
+.twitter {
+    width: 30px;
+}
+
+.fb {
+    width: 30px;
+}
+
+.texte p {
+    font-size: 0.8rem;
+}
+
+.btn {
+    color: white;
+    font-size: 0.8rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #fac5a8;
+}
+
+hr {
+    color: black;
+    
+
+}
+
+@media screen and (min-width: 768px) {
+.modal-dialog {
+    margin: auto;
+    width: 300px;
+    height:400px;
+}
+}
+
+@media screen and (min-width: 576px) {
+    #profil {
+    width: 50vh;
+    }
+    }
+
+
+    @media screen and (min-width: 768px) {
+        #profil {
+        width: 30vh;
+        }
+        }
+
+
+
+    
+
+    @media screen and (min-width: 768px) {
+        .logo{
+        width: 30vh;
+        }
+        }
+
+        
+

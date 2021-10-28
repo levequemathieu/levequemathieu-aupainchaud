@@ -2,6 +2,9 @@
     font-size: 16px;
 }
 
+#nav {
+    background-color: black;
+}
 
 html{
     scroll-behavior: smooth;
@@ -32,11 +35,12 @@ main {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color:#F0E5DF;
+    color: #dbc3b5;
+    border-bottom:  #dbc3b5;
 }
 
 #round{
-    background-color: #F0E5DF;
+    background-color: #dbc3b5;
 }
 
 #linkcolor {
